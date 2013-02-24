@@ -71,3 +71,17 @@ This create filters for 1st and 3rd columns.
   # Available Sortings: int,str,date .(Integer,String,date).
 
 Refer [http://docs.dhtmlx.com/doku.php?id=dhtmlxgrid:toc] for more information
+
+= How to Integrate to your Project =
+
+  * copy the directories codebase,reports to your project root directory.
+  * Add jars report-utils.jar,xml2excel.jar,jxl.jar,json-simple-1.1.1.jar to /WEB-INF/lib
+  * Add {{{ <servlet>
+	<servlet-name>ExcelGenerator</servlet-name>
+	<servlet-class>com.dhtmlx.xml2excel.ExcelGenerator</servlet-class>
+        </servlet>
+	<servlet-mapping>
+	<servlet-name>ExcelGenerator</servlet-name>
+	<url-pattern>/generate.do</url-pattern>
+	</servlet-mapping>
+	}}} to your web.xml
