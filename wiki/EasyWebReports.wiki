@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Easy Web Reports framework is a combination of Client side(js) and Server side libraries(java classes) which takes care of the User Interface,async requests,database access,report rendering etc .So the developer just need to specify the queries and the magic happens .
+Easy Web Reports framework is a combination of Client side(js) and Server side libraries(java classes) which takes care of the User Interface,async requests,database access,report rendering etc .So the developer just need to specify the queries and the magic happens .It uses [http://www.dhtmlx.com]DHTMLX Library for representing the grid.
 
 
 = Get Started =
@@ -12,3 +12,6 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
   * Import the sql(MySql) file *grid.sql* to your database.You can find this file in the root folder of the application or in Downloads. 
   * Configure your database properties *"WEB-INF/classes/jdbc.properties"*.
   * Restart your application server and go to http://localhost:8080/gc to see the Demo .
+
+= Customization =
+  * 
