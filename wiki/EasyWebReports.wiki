@@ -19,7 +19,7 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
   * Download the [http://code.google.com/p/easy-webreports/downloads/list demo-reports.war] file and deploy it in your application server
   * Import the sql(MySql) file [http://code.google.com/p/easy-webreports/downloads/list grid.sql] to your database.You can find this file in the root folder of the application or in Downloads. 
   * Configure your database properties *"WEB-INF/classes/jdbc.properties"*.
-  * Restart your application server and go to http://localhost:8080/demo to see the Demo .
+  * Restart your application server and go to http://localhost:8080/demo-reports to see the Demo .
 
 = Reports Customization  =
    Before starting our reports customization,let's know about 3 important files in the application.
