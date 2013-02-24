@@ -29,8 +29,10 @@ So change the labels of the items or add items of your own or add sections of yo
 = Adding HTML elements in reports =
 
 Just add it to your sql query in JsonService.jsp
-eg:
+
 {{{ 
   * select foo,bar,concat("<a href='#'>Edit<a>") edit  from table
   * select foo,bar,concat("<button>Click Me<button>") clickme from table
 }}}
+
+_Don't forget to add alias to the column names if you use any sql functions like IF,CONCAT(),DATE_FORMAT() etc otherwise the report will not be rendered propery_
