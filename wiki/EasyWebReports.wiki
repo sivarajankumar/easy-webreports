@@ -30,9 +30,7 @@ So change the labels of the items or add items of your own or add sections of yo
 
 Just add it to your sql query in JsonService.jsp
 eg: 
-  #select foo,bar,concat("<a href='#'>Edit<a>") edit  from table;
-  #select foo,bar,concat("<button>Click Me<button>") clickme from table;
-
-
+  *select foo,bar,concat("<a href='#'>Edit<a>") edit  from table
+  *select foo,bar,concat("<button>Click Me<button>") clickme from table
 
 
