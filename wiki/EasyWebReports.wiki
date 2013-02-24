@@ -48,8 +48,7 @@ case 101:
      colSorts="str,str";
 break;
 }}}
-Available filters : #text_filter,#select_filter.
-Available Sortings: int,str,date .(Integer,String,date).
+  # Available filters : #text_filter,#select_filter.
+  # Available Sortings: int,str,date .(Integer,String,date).
 
 Refer [http://docs.dhtmlx.com/doku.php?id=dhtmlxgrid:toc] for more information
-
