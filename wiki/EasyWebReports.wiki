@@ -13,5 +13,10 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
   * Configure your database properties *"WEB-INF/classes/jdbc.properties"*.
   * Restart your application server and go to http://localhost:8080/gc to see the Demo .
 
-= Customization =
-  * 
+= Reports Customization  =
+   Before starting our reports customization,let's know about 3 important files in the application.
+  * index.html ==> The view page for reports.
+  * JsonService.jsp ==> Service page which returns the data as Json.
+  * reportCtrl.js  ==> Is the controller page,which is responsible for handling requests,making async calls,handling responses,handling errors etc.
+
+We've a 2 level navigation menu defined in a json called *navigationMenu* in the file *reportCtrl.js*.First level is the report Section and the second level is List of reports in that section.
