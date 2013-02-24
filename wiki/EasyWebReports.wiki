@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Easy Web Reports framework is a combination of Client side(js) and Server side libraries(java classes) which takes care of the User Interface,async requests,database access,report rendering etc .So the developer just need to specify the queries and the magic happens .It uses [http://www.dhtmlx.com]DHTMLX Library for representing the grid.
+Easy Web Reports framework is a combination of Client side(js) and Server side libraries(java classes) which takes care of the User Interface,async requests,database access,report rendering etc .So the developer just need to specify the queries and the magic happens .The Grid representation is powered by [http://www.dhtmlx.com] DHTMLX Library.
 
 
 = Get Started =
