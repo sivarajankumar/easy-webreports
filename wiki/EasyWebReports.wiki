@@ -22,3 +22,6 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
 We've a 2 level navigation menu defined in a json called *navigationMenu* in the file *reportCtrl.js*.First level is the report Section and the second  is List of reports in that section.Change the labels as per your needs.Each report Item  should have an unique Id.This Id will be used as a reference to the Sql Query in *JsonService.jsp*.
 So When any report link is clicked the Id  will be passed to *JsonService.jsp* and corresponding sqlQuery will be executed and data will be returned as Json.
 
+
+So change the labels of the items or add items of your own or add sections of your own in the json and add sql Queries for the respective reportIds.That's all folks.
+
