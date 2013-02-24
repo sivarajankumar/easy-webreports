@@ -43,10 +43,21 @@ _Don't forget to add alias to the column names if you use any sql functions like
 You do that in JsonService.jsp .
 {{{
 case 101:
-     sqlQuery="select foo,bar from table";
+     sqlQuery="select foo,bar,test from table";
      filters="#text_filter,#select_filter";
      colSorts="str,str";
 break;
+
+case 101:
+     sqlQuery="select foo,bar,test from table";
+     filters="#select_filter,,#select_filter";
+     colSorts="str,,str";
+break;
+
+This create text_filter for first column,select filter for the second and String sorting for the two columns.
+
+
+
 }}}
   # Available filters : #text_filter,#select_filter.
   # Available Sortings: int,str,date .(Integer,String,date).
