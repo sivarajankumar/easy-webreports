@@ -36,3 +36,19 @@ Just add it to your sql query in JsonService.jsp
 }}}
 
 _Don't forget to add alias to the column names if you use any sql functions like IF,CONCAT(),DATE_FORMAT() etc otherwise the report will not be rendered propery_
+
+
+= Adding Filters,Column Sortings to reports =
+
+You do that in JsonService.jsp .
+{{{
+case 101:
+     sqlQuery="select foo,bar from table";
+     filters="#text_filter,#text_filter";
+     colSorts="str,str";
+break;
+}}}
+Available filters : #text_filter,#select_filter
+Available Sortings: int,str,date .(Integer,String,date).
+Refer [http://docs.dhtmlx.com/doku.php?id=dhtmlxgrid:toc] for more information
+
