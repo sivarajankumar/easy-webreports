@@ -19,4 +19,8 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
   * JsonService.jsp ==> Service page which returns the data as Json.
   * reportCtrl.js  ==> Is the controller page,which is responsible for handling requests,making async calls,handling responses,handling errors etc.
 
-We've a 2 level navigation menu defined in a json called *navigationMenu* in the file *reportCtrl.js*.First level is the report Section and the second level is List of reports in that section.
+We've a 2 level navigation menu defined in a json called *navigationMenu* in the file *reportCtrl.js*.First level is the report Section and the second  is List of reports in that section.Change the labels of the report section and items in the section as per your needs.Each report Item will should have an unique Id.
+
+
+
+
