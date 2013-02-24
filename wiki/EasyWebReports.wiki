@@ -76,7 +76,10 @@ Refer [http://docs.dhtmlx.com/doku.php?id=dhtmlxgrid:toc] for more information
 
   * copy the directories codebase,reports to your project root directory.
   * Add jars report-utils.jar,xml2excel.jar,jxl.jar,json-simple-1.1.1.jar to /WEB-INF/lib
-  * Add {{{ <servlet>
+  * Add the following servlet to web.xml
+
+   {{{ 
+        <servlet>
 	<servlet-name>ExcelGenerator</servlet-name>
 	<servlet-class>com.dhtmlx.xml2excel.ExcelGenerator</servlet-class>
         </servlet>
@@ -84,4 +87,6 @@ Refer [http://docs.dhtmlx.com/doku.php?id=dhtmlxgrid:toc] for more information
 	<servlet-name>ExcelGenerator</servlet-name>
 	<url-pattern>/generate.do</url-pattern>
 	</servlet-mapping>
-	}}} to your web.xml
+	}}} 
+  * Create an Sql connection object with your own implementation in JsonService.jsp.
+  * Now it's ready to use.
