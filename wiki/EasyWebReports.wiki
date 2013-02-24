@@ -9,7 +9,7 @@ Easy Web Reports framework is a combination of Client side(js) and Server side l
   * Easy to integrate
   * Fully Asynchronous
   * Works with all databases.
-  * Uses AngularJs
+  * Built with AngularJS.
 
 = Get Started =
 
