@@ -50,7 +50,7 @@ break;
 
 This create text_filter for first column,select filter for the second and String sorting for the two columns.
 
-If you don't wanna create filters or sorting for any column just leave it empty as shown below.
+If you dnt wanna create filters or sorting for any column just leave it empty as shown below.
 
 case 101:
      sqlQuery="select foo,bar,test from table";
