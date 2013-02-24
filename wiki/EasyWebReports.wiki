@@ -25,3 +25,14 @@ So When any report link is clicked the Id  will be passed to *JsonService.jsp* a
 
 So change the labels of the items or add items of your own or add sections of your own in the json and add sql Queries for the respective reportIds.That's all folks.
 
+
+= Adding HTML elements in reports =
+
+Just add it to your sql query in JsonService.jsp
+eg: 
+  #select foo,bar,concat("<a href='#'>Edit<a>") edit  from table;
+  #select foo,bar,concat("<button>Click Me<button>") clickme from table;
+
+
+
+
